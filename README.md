@@ -4,7 +4,9 @@
 
 Welcome to this repository! Download the themes in the [download-themes-here](https://github.com/discord-addons/discord-addons/tree/master/download-themes-here) folder.
 
-## ⚠ Got any of Discord Addons themes before Oct 6, 2021, or from the BetterDiscord website?
+## ⚠ Got any of Discord Addons themes:
+- **Anywhere, before `Oct 6, 2021`?**
+- Or from the BetterDiscord website, before `Oct 22, 2021`?
 
 You may redownload your theme or [change the import link](https://discord-addons.github.io/tutorials#update-import-link), because all themes linking to the old repo will no longer work on **Oct 25, 2021**. You may also see a notice in Discord.
 
