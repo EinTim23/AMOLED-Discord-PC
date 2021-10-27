@@ -2,7 +2,7 @@
 
 @import url(https://discord-addons.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --sab-build: "21";
+    --sab-build: "22";
     --theme-name: "Serverlist at Bottom";
 }
 :root {
@@ -33,7 +33,7 @@
 #app-mount .guilds-1SWlCJ .scrollerWrap-1IAIlv {
     width: calc(100% + 30px);
 }
-#app-mount .guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-1hlISG) {
+#app-mount .guilds-1SWlCJ .scroller-2TZvBN > div[style]:not(.listItem-2Ig28I) {
     height: auto !important;
 }
 #app-mount .guilds-1SWlCJ .svg-1X37T1,
@@ -56,21 +56,20 @@
 #app-mount .guilds-1SWlCJ .wrapper-sa6paO {
     height: var(--server-size) !important;
 }
-#app-mount .guilds-1SWlCJ .listItem-1hlISG {
+#app-mount .guilds-1SWlCJ .listItem-2Ig28I {
     width: var(--server-size);
     transform: rotate(90deg);
     margin: var(--server-spacing) 10px;
     position: unset;
 }
-#app-mount .guilds-1SWlCJ .guildSeparator-EOYZLM {
+#app-mount .guilds-1SWlCJ .guildSeparator-nWMCrR {
     transform: rotate(90deg);
     width: var(--server-size);
 }
 #app-mount .guilds-1SWlCJ .wrapper-21YSNc {
     width: var(--server-container);
 }
-#app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd-,
-#app-mount .guilds-1SWlCJ .expandedFolderBackground-1cujaW {
+#app-mount .guilds-1SWlCJ .expandedFolderBackground-3ZDF05 {
     width: var(--server-size);
     bottom: 0;
     left: 10px;
@@ -82,14 +81,14 @@
 #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
     top: calc(var(--server-container) * 2) !important;
 }
-#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-1hlISG {
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2Ig28I {
     height: var(--server-size) !important;
 }
-#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-1hlISG .wrapper-1BJsBx {
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2Ig28I .wrapper-1BJsBx {
     height: 100% !important;
     max-height: 100% !important;
 }
-#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-1hlISG {
+#app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2Ig28I {
     width: 100%;
     height: 100% !important;
     max-height: 100% !important;
