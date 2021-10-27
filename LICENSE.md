@@ -28,12 +28,10 @@ Please note that the owner is not responsible of modified versions nor unofficia
 
 Links starting with:
 
-- **`discord-addons.github.io`** See: [Website](https://discord-addons.github.io/main)
-- **`github.com/discord-addons`** See: [Organization](https://github.com/discord-addons)
-
-And also:
-
-- The addons you find in the [BetterDiscord website](https://betterdiscord.app/themes) and in the [GooseMod](https://goosemod.com/) store.
+- **`discord-addons.github.io`** - See: [Website](https://discord-addons.github.io/main)
+- **`github.com/discord-addons`** - See: [Organization](https://github.com/discord-addons)
+- **`betterdiscord.app`** - See: [Available themes](https://betterdiscord.app/developer/mila6969)
+- The addons you find in the [BetterDiscord website](https://betterdiscord.app/themes) and in the [GooseMod](https://goosemod.com) store.
 
 Any copy of this project, modified or not, is considered as "unofficial source" and you must manage them by yourself.
 
