@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "324";
-    --adto-build: "225";
+    --adt-build: "325";
+    --adto-build: "226";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -82,9 +82,9 @@
 .theme-dark .reactors-Blmlhw,
 .theme-dark .consentCard-1iSxB_,
 .theme-dark .attachPopout-36hjtN,
-.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
-.theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7.collapsed-1GMuSb,
-.theme-dark .expandedFolderBackground-2sPsd-:hover.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-3ZDF05.collapsed-2Zqqnx,
+.theme-dark .expandedFolderBackground-3ZDF05.hover-vBJrIv.collapsed-2Zqqnx,
+.theme-dark .expandedFolderBackground-3ZDF05:hover.collapsed-2Zqqnx,
 .theme-dark .button-1YfofB.buttonColor-7qQbGO,
 .theme-dark .footer-3rDWdC,
 .theme-dark .header-2tA9Os,
@@ -284,11 +284,11 @@
 }
 /* Adt-Bg4 | 4th */
 .theme-dark .scrollableContainer-2NUZem,
-.theme-dark .expandedFolderBackground-1cujaW,
-.theme-dark .expandedFolderBackground-1cujaW.hover-2ji_A7,
-.theme-dark .expandedFolderBackground-1cujaW:hover,
-.theme-dark .folder-1hbNCn,
-.theme-dark .folder-1hbNCn:hover,
+.theme-dark .expandedFolderBackground-3ZDF05,
+.theme-dark .expandedFolderBackground-3ZDF05.hover-vBJrIv,
+.theme-dark .expandedFolderBackground-3ZDF05:hover,
+.theme-dark .folder-2w6LX1,
+.theme-dark .folder-2w6LX1:hover,
 .theme-dark .inset-3sAvek,
 .theme-dark .footer-3mqk7D,
 .theme-dark .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO,
@@ -315,8 +315,8 @@
     background-color: #202225;
 }
 /*-- 3.2. Other --*/
-.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
-.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb.hover-2ji_A7 {
+.theme-dark .expandedFolderBackground-3ZDF05.collapsed-2Zqqnx,
+.theme-dark .expandedFolderBackground-3ZDF05.collapsed-2Zqqnx.hover-vBJrIv {
     background-color: transparent;
 }
 .theme-dark .xenoLib-notification-content {
