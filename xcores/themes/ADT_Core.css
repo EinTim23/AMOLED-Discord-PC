@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "325";
-    --adto-build: "226";
+    --adt-build: "326";
+    --adto-build: "227";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -85,6 +85,9 @@
 .theme-dark .expandedFolderBackground-3ZDF05.collapsed-2Zqqnx,
 .theme-dark .expandedFolderBackground-3ZDF05.hover-vBJrIv.collapsed-2Zqqnx,
 .theme-dark .expandedFolderBackground-3ZDF05:hover.collapsed-2Zqqnx,
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-2sPsd-:hover.collapsed-1GMuSb,
 .theme-dark .button-1YfofB.buttonColor-7qQbGO,
 .theme-dark .footer-3rDWdC,
 .theme-dark .header-2tA9Os,
@@ -160,6 +163,8 @@
 .theme-dark .bd-modal-wrapper .footer,
 .theme-dark .childWrapper-anI2G9,
 .theme-dark .circleIconButton-hZmpE8,
+.theme-dark .circleIconButton-jET_ig,
+.theme-dark .circleIconButton-1QV--U,
 .theme-dark .privateChannels-1nO12o,
 .theme-dark .scroller-1JbKMe,
 .theme-dark .button-1YfofB.buttonColor-7qQbGO:hover,
@@ -289,6 +294,11 @@
 .theme-dark .expandedFolderBackground-3ZDF05:hover,
 .theme-dark .folder-2w6LX1,
 .theme-dark .folder-2w6LX1:hover,
+.theme-dark .expandedFolderBackground-1cujaW,
+.theme-dark .expandedFolderBackground-1cujaW.hover-2ji_A7,
+.theme-dark .expandedFolderBackground-1cujaW:hover,
+.theme-dark .folder-1hbNCn,
+.theme-dark .folder-1hbNCn:hover,
 .theme-dark .inset-3sAvek,
 .theme-dark .footer-3mqk7D,
 .theme-dark .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO,
@@ -316,7 +326,9 @@
 }
 /*-- 3.2. Other --*/
 .theme-dark .expandedFolderBackground-3ZDF05.collapsed-2Zqqnx,
-.theme-dark .expandedFolderBackground-3ZDF05.collapsed-2Zqqnx.hover-vBJrIv {
+.theme-dark .expandedFolderBackground-3ZDF05.collapsed-2Zqqnx.hover-vBJrIv,
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb.hover-2ji_A7 {
     background-color: transparent;
 }
 .theme-dark .xenoLib-notification-content {
@@ -395,7 +407,9 @@
 .theme-dark .modeUnread-1zpFdA:hover .icon-1_QxNX {
     color: var(--interactive-active);
 }
-.theme-dark .circleIconButton-hZmpE8.selected-3mFF3I {
+.theme-dark .circleIconButton-hZmpE8.selected-3mFF3I,
+.theme-dark .circleIconButton-jET_ig.selected-ugP_am,
+.theme-dark .circleIconButton-1QV--U.selected-1JjBPm {
     color: #fff;
     background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);
 }
