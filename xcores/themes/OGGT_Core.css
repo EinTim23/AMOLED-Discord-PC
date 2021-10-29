@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "238";
+    --oggt-build: "239";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -7415,33 +7415,32 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 .full-motion.app-focused #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse:focus {
     animation: accent-blinking 450ms infinite;
 }
-#app-mount .auditLog-3jNbM6 {
+#app-mount .auditLog-2ph_aK {
     border: solid 1px var(--line-color);
     border-radius: 0;
     color: rgb(var(--muted-font));
 }
-#app-mount .headerClickable-2IVFo9,
-#app-mount .headerDefault-1wrJcN {
+#app-mount .headerClickable-g5d9lT {
     background-color: rgba(var(--dark-background-color), var(--other-transparency));
 }
-#app-mount .headerExpanded-CUEwZ5 {
+#app-mount .headerExpanded-2egR38 {
     background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
     color: rgb(var(--normal-font));
 }
-#app-mount .changeDetails-bk98pu {
+#app-mount .changeDetails-2dV5gP {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
 }
-#app-mount .divider-1pnAR2 {
+#app-mount .divider-1tf9AP {
     background-color: var(--line-color);
 }
-.overflowEllipsis-1PBFxQ {
+#app-mount .overflowEllipsis-2mDM61 {
     color: rgb(var(--normal-font));
 }
-#app-mount .timestamp-1mruiI {
+#app-mount .timestamp-3B0F1C {
     color: rgb(var(--muted-font));
 }
-#app-mount .userHook-3AdCBF,
-#app-mount .auditLog-3jNbM6 strong {
+#app-mount .userHook-yu9TNk,
+#app-mount .auditLog-2ph_aK strong {
     color: rgb(var(--normal-hover-font));
     font-weight: 900;
 }
