@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "241";
+    --oggt-build: "242";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4005,7 +4005,7 @@ code.inline {
 }
 .members-1998pB .layout-2DM8Md {
     border-radius: 0;
-    height: 45px;
+    height: 43px;
     padding: 0 6px;
     margin-top: 1px;
 }
@@ -6644,11 +6644,12 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     border-bottom: none;
 }
 /* Memberlist */
-.members-1998pB {
+.container-2wlB3z {
     border-right: solid 1px var(--line-color);
     border-bottom: solid 1px var(--line-color);
+    max-height: calc(100% - 1px);
 }
-.platform-web .members-1998pB {
+.platform-web .container-2wlB3z {
     border-right: none;
     border-bottom: none;
     border-left: solid 1px var(--line-color);
@@ -6805,7 +6806,7 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     backdrop-filter: blur(var(--chat-background-blur)) !important;
 }
 /* Memberlist */
-.members-1998pB {
+.container-2wlB3z {
     background-color: rgba(var(--memberlist-transparency-color), var(--memberlist-transparency));
     backdrop-filter: blur(var(--memberlist-background-blur));
 }
