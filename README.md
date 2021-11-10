@@ -10,6 +10,7 @@ Welcome to this repository! Download the themes in the [download-themes-here](ht
 - [License](https://github.com/discord-addons/discord-addons/blob/master/LICENSE.md)
 - [Website](https://discord-addons.github.io/main)
 - [Documentation](https://8io.gitbook.io/discord-addons/)
+- [BetterDiscord](https://betterdiscord.app/developer/mila6969)
 
 ## ⚠ Got any of Discord Addons themes:
 - **Anywhere, before `Oct 6, 2021`?**
