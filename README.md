@@ -13,7 +13,7 @@ Welcome to this repository! Download the themes in the [download-themes-here](ht
 
 ## ⚠ Got any of Discord Addons themes:
 - **Anywhere, before `Oct 6, 2021`?**
-- Or from the BetterDiscord website, before `Oct 22, 2021`?
+- Or from the [BetterDiscord website](https://betterdiscord.app/themes), before `Oct 22, 2021`?
 
 You may redownload your theme or [change the import link](https://8io.gitbook.io/discord-addons/outdated-themes/update-the-import-link), because all themes linking to the old repo no longer work since **Oct 25, 2021**. You may also see a notice in Discord.
 
