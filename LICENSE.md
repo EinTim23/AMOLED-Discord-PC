@@ -2,7 +2,7 @@
 
 Originally created by [TomRdh](https://github.com/Tomrdh). Maintained with the Discord Addons organization account.
 
-[Discord Addons](https://github.com/discord-addons/discord-addons) is 100% free, without ads and without watermark (there are only dev tags in case you see the main dev herself). Thanks for using this stuff! The best way to support this project is by sharing it. 💖
+[Discord Addons](https://github.com/discord-addons/discord-addons) is 100% free, without anything disturbing. Thanks for using this stuff! The best way to support this project is by sharing it. 💖
 
 Here you will read about your permissions, about what you can and can't do with this project.
 
