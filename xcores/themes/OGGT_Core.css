@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "243";
+    --oggt-build: "244";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3672,7 +3672,7 @@ code.inline {
 }
 /* Quick Switcher Empty State */
 #app-mount .emptyState-2gL-9T {
-    background-image: url(https://tomrdh.github.io/stuff/img/nyan_cat_transparent.gif);
+    background-image: url(https://discord-addons.github.io/unofficial/img/nyan_cat_transparent.gif);
     background-size: 30%;
 }
 .emptyStateNote-ZYTetQ {
