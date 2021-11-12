@@ -12,7 +12,7 @@ Download the themes in the [download-themes-here](https://github.com/discord-add
 - [Website](https://discord-addons.github.io/main) - Where everything starts and makes navigation easier.
 - [License](https://github.com/discord-addons/discord-addons/blob/master/LICENSE.md) - We have written our own license by ourselves!
 - [Documentation](https://8io.gitbook.io/discord-addons/) - The main resource of information.
-- [BetterDiscord](https://betterdiscord.app/developer/strawmi65) - Available Discord Addons themes in the BD website!
+- [BetterDiscord](https://betterdiscord.app/developer/mila684) - Available Discord Addons themes in the BD website!
 
 ## ⚠ Don't know how to get a theme?
 

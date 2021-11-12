@@ -14,4 +14,4 @@ You can read the [license](https://github.com/discord-addons/discord-addons/blob
 
 ## Bonus:
 
-Do you want more themes? Check the [updated stuff](https://github.com/strawmi65/updated-stuff) repo!
+Do you want more themes? Check the [unofficial](https://github.com/discord-addons/unofficial) repo!
