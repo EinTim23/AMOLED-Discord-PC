@@ -6,8 +6,6 @@ Welcome to this repository! Here we have themes for BetterDiscord, Powercord and
 
 Download the themes in the [download-themes-here](https://github.com/discord-addons/discord-addons/tree/master/download-themes-here) folder. For styles other than Discord, check the [styles](https://github.com/discord-addons/discord-addons/tree/master/styles) folder.
 
-[Read this documentation](https://8io.gitbook.io/discord-addons/get-a-theme/download-a-theme) for how to get a theme and more.
-
 # Sources
 
 - [Discord server](https://discord.gg/g9heA3p6WW) - Get help fast and get notified with announements.
@@ -16,10 +14,8 @@ Download the themes in the [download-themes-here](https://github.com/discord-add
 - [Documentation](https://8io.gitbook.io/discord-addons/) - The main resource of information.
 - [BetterDiscord](https://betterdiscord.app/developer/mila6969) - Available Discord Addons themes in the BD website!
 
-## ⚠ Got any of Discord Addons themes:
-- **Anywhere, before `Oct 6, 2021`?**
-- Or from the [BetterDiscord website](https://betterdiscord.app/themes), before `Oct 22, 2021`?
+## ⚠ Don't know how to get a theme?
 
-You may redownload your theme or [change the import link](https://8io.gitbook.io/discord-addons/outdated-themes/update-the-import-link), because all themes linking to the old repo no longer work since **Oct 25, 2021**. You may also see a notice in Discord.
+[Read this documentation](https://8io.gitbook.io/discord-addons/get-a-theme/download-a-theme) for how to get a theme and more.
 
-*This part will be removed soon, since it looks like everyone has updated the themes.*
+*Also, this shouldn't be the case, but if you got an old theme that doesn't work, you're invited to [read this](https://8io.gitbook.io/discord-addons/outdated-themes/update-an-outdated-theme) to fix that old problem.*
