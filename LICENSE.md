@@ -1,6 +1,6 @@
 # Discord Addons License
 
-Originally created by [TomRdh](https://github.com/Tomrdh). Maintained with the Discord Addons organization account.
+Maintained on the Discord Addons organization account.
 
 [Discord Addons](https://github.com/discord-addons/discord-addons) is 100% free, without anything disturbing. Thanks for using this stuff! The best way to support this project is by sharing it. 💖
 
@@ -30,7 +30,7 @@ Links starting with:
 
 - **`discord-addons.github.io`** - See: [Website](https://discord-addons.github.io/main)
 - **`github.com/discord-addons`** - See: [Organization](https://github.com/discord-addons)
-- **`betterdiscord.app`** - See: [Available themes](https://betterdiscord.app/developer/mila6969)
+- **`betterdiscord.app`** - See: [Available themes](https://betterdiscord.app/developer/strawmi65)
 - **`8io.gitbook.io`** - See: [Documentation](https://8io.gitbook.io/discord-addons)
 
 - The addons you find in the [BetterDiscord website](https://betterdiscord.app/themes) and in the [GooseMod](https://goosemod.com) store.

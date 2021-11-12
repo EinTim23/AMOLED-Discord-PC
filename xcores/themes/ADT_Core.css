@@ -5,7 +5,7 @@
     OR
     "AmoledDarkThemeOptimized_quickConfig.css" for ADTO
     Check the "xcores/themes" folder in the repo.
-    Original idea by YTGamer. Rewritten by TomRdh.
+    Original idea by YTGamer. Rewritten by Discord Addons.
 
     MAP
     1. Imports
@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "328";
-    --adto-build: "229";
+    --adt-build: "329";
+    --adto-build: "230";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
