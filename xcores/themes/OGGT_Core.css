@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "244";
+    --oggt-build: "245";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -6644,12 +6644,12 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     border-bottom: none;
 }
 /* Memberlist */
-.container-2wlB3z {
+.membersWrap-2h-GB4 {
     border-right: solid 1px var(--line-color);
     border-bottom: solid 1px var(--line-color);
-    max-height: calc(100% - 1px);
+    height: calc(100% - 1px);
 }
-.platform-web .container-2wlB3z {
+.platform-web .membersWrap-2h-GB4 {
     border-right: none;
     border-bottom: none;
     border-left: solid 1px var(--line-color);
@@ -6659,11 +6659,13 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     border: solid 1px var(--line-color);
     border-radius: 0;
     margin: 0;
-    width: calc(var(--mSize, 240px) - 2px);
+    width: calc(var(--mSize, 240px) - 0px);
     border-top: none;
+    border-left: none;
 }
 .platform-web .wrapper-2h7HDT {
     border-right: none;
+    border-left: solid 1px var(--line-color);
     width: calc(var(--mSize, 240px) - 1px);
 }
 /* Servername and Banner */
@@ -6807,7 +6809,7 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     backdrop-filter: blur(var(--chat-background-blur)) !important;
 }
 /* Memberlist */
-.container-2wlB3z {
+.membersWrap-2h-GB4 {
     background-color: rgba(var(--memberlist-transparency-color), var(--memberlist-transparency));
     backdrop-filter: blur(var(--memberlist-background-blur));
 }
