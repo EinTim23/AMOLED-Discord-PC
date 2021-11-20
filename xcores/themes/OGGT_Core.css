@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "245";
+    --oggt-build: "246";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1716,6 +1716,7 @@ body,
 .role-3paDXR {
     padding: 0;
     height: 18px;
+    border: solid 1px;
 }
 .roleName-32vpEy,
 .roleName-1JcOmP {
@@ -1733,7 +1734,7 @@ body,
 #app-mount .userPopout-3XzG_A .actionButton-VzECiy,
 #app-mount .userPopout-xaxa6l .actionButton-VzECiy {
     position: absolute;
-    top: -21px;
+    top: -16px;
     right: 6px;
     margin: 0;
     padding: 0;
