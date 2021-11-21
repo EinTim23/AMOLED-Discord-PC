@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "329";
-    --adto-build: "230";
+    --adt-build: "330";
+    --adto-build: "231";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -71,8 +71,6 @@
 .theme-dark .section-2gLsgF,
 .theme-dark .popoutList-T9CKZQ,
 .theme-dark .expandedInfo-3kfShd,
-.theme-dark .perk-2WeBWW,
-.theme-dark .tierBody-16Chc9,
 .theme-dark .input-2VB9rf,
 .theme-dark .card-3DjzTQ:not(.theme-dark .card-3DjzTQ:hover),
 .theme-dark .cardPlaceholder-1zrbbe,
@@ -185,7 +183,11 @@
 .theme-dark .embedFull-2tM8--,
 .theme-dark .autocompleteArrow-Zxoy9H,
 .theme-dark .header-2bNvm4,
-.theme-dark .keyboardShortcutsModal-3piNz7
+.theme-dark .keyboardShortcutsModal-3piNz7,
+.theme-dark .perk-2WeBWW,
+.theme-dark .perk-2YwViL,
+.theme-dark .tierBody-16Chc9,
+.theme-dark .tierBody-3gjrjH
 {
     background: var(--bg-2);
     background-color: var(--bg-2);
@@ -500,7 +502,8 @@
 .theme-dark .placeholderUsername-2B_OA9 {
     background-color: rgb(var(--greyaccentcolor));
 }
-.theme-dark .perksModal-fSYqOq {
+.theme-dark .perksModal-fSYqOq,
+.theme-dark .perksModal-1pSu7w {
     background-color: var(--bg-1);
 }
 .theme-dark .searchResult-9tQ1uo.expanded-w_LCGl,
