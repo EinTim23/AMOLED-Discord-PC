@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "247";
+    --oggt-build: "248";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3073,10 +3073,10 @@ strong {
     border-radius: 0;
 }
 #app-mount .spoilerText-3p6IlD.hidden-HHr2R9 {
-    background: rgb(var(--darker-background-color));
+    background: rgb(var(--dark-background-color));
 }
 #app-mount .spoilerText-3p6IlD:hover.hidden-HHr2R9 {
-    background-color: rgb(var(--dark-background-color));
+    background-color: rgb(var(--darker-background-color));
 }
 /* Codeblocks and codelines */
 .markup-2BOw-j code,
@@ -5136,6 +5136,9 @@ g[class*="focusStroke"] {
 #app-mount .perksModal-1pSu7w,
 #app-mount .perksModal-fSYqOq {
     background-color: rgb(var(--darker-background-color));
+}
+.platform-win #app-mount .perksModal-1pSu7w,
+.platform-win #app-mount .perksModal-fSYqOq {
     margin-top: 31px;
     height: calc(100% - 31px);
     border: solid 1px var(--line-color);
@@ -5162,8 +5165,9 @@ g[class*="focusStroke"] {
 #app-mount .tierUnlocked-3mPMcg {
     color: rgb(var(--accent-color-2));
     background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
-    border-radius: 0;
-    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
 }
 #app-mount .tierBody-16Chc9,
 #app-mount .tierBody-3gjrjH {
