@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "331";
-    --adto-build: "232";
+    --adt-build: "332";
+    --adto-build: "233";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -91,7 +91,6 @@
 .theme-dark .header-2tA9Os,
 .theme-dark .modal-yWgWj-,
 .theme-dark .inner-1ilYF7,
-.theme-dark .inset-3sAvek,
 .theme-dark .contentWrapperInner-15LzPz,
 .theme-dark .videoBackground-3AY_fu,
 .theme-dark .videoBackgroundTransition-3wpOSl,
@@ -129,6 +128,7 @@
 .theme-dark .tooltipPrimary-1d1ph4,
 .theme-dark .noChannel-3LgMRp,
 .theme-dark .reaction-1hd86g,
+.theme-dark .inset-3sAvek,
 .theme-dark .nowPlayingColumn-2sl4cE
 {
     background: var(--bg-1) !important;
