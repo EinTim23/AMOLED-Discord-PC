@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "248";
+    --oggt-build: "249";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3166,13 +3166,13 @@ code.inline {
 .peopleListItem-2nzedh {
     border-radius: 0 !important;
     border-top: none;
-    margin-top: -1px;
+    margin-top: 0px;
 }
 .peopleListItem-2nzedh.active-rhSpJJ,
 .peopleListItem-2nzedh:hover {
     background: linear-gradient(135deg, rgba(var(--accent-color-1), 0.3), rgba(var(--accent-color-2), 0.3));
     border: solid 1px var(--line-color-1);
-    margin: -1px 9px 0 19px;
+    margin: 0px 9px 0 19px;
 }
 .peopleListItem-2nzedh.active-rhSpJJ {
     border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
