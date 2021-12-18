@@ -8,7 +8,7 @@ Download the themes in the [download-themes-here](https://github.com/discord-add
 
 # Sources
 
-- [Discord server](https://dsc.gg/strawmi) - Get help fast and get notified with announements.
+- [Discord server](https://dsc.gg/discord-addons) - Get help fast and get notified with announements.
 - [Website](https://discord-addons.github.io/main) - Where everything starts and makes navigation easier.
 - [License](https://github.com/discord-addons/discord-addons/blob/master/LICENSE.md) - We have written our own license by ourselves!
 - [Documentation](https://8io.gitbook.io/discord-addons/) - The main resource of information.
