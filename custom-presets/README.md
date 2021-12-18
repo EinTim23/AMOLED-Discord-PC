@@ -4,9 +4,9 @@ Here you can use all presets submitted by users using one of Discord Addons them
 
 ## Tips
 
-- Want your own theme preset shown here? Start customizing any theme from here using the variables, and submit in the [Discord Addons server](https://discord.gg/g9heA3p6WW)!
+- Want your own theme preset shown here? Start customizing any theme from here using the variables, and submit in the [Discord Addons server](https://dsc.gg/strawmi)!
 - [Learn how to customize your theme!](https://8io.gitbook.io/discord-addons/customize-your-theme/customize-your-theme)
-- You can see the previews directly in the [support server](https://discord.gg/g9heA3p6WW) in a dedicated channel.
+- You can see the previews directly in the [support server](https://dsc.gg/strawmi) in a dedicated channel.
 - You want a default theme? Then return to the parent folder, or [go here](https://github.com/discord-addons/discord-addons/tree/master/download-themes-here)!
 
 ## Submission form
