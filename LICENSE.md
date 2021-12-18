@@ -30,7 +30,7 @@ Links starting with:
 
 - **`discord-addons.github.io`** - See: [Website](https://discord-addons.github.io/main)
 - **`github.com/discord-addons`** - See: [Organization](https://github.com/discord-addons)
-- **`betterdiscord.app`** - See: [Available themes](https://betterdiscord.app/developer/mila684)
+- **`betterdiscord.app`** - See: [Available themes](https://betterdiscord.app/developer/discord-addons)
 - **`8io.gitbook.io`** - See: [Documentation](https://8io.gitbook.io/discord-addons)
 
 - The addons you find in the [BetterDiscord website](https://betterdiscord.app/themes) and in the [GooseMod](https://goosemod.com) store.
