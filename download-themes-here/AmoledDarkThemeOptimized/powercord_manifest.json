@@ -1,8 +1,0 @@
-{
-    "name": "AmoledDarkThemeOptimized",
-    "description": "This version of AMOLED dark theme makes all backgrounds to black instead of matching Android colors.",
-    "version": "1.0.6",
-    "author": "Discord Addons",
-    "theme": "AmoledDarkThemeOptimized.theme.css",
-    "license": "unknown"
-}

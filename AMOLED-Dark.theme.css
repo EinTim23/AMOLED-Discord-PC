@@ -1,35 +1,18 @@
-/*  AMOLED Dark Theme and AMOLED Dark Theme Optimized
-
-    WARNING: THIS FILE MUST BE USED WITH ANOTHER ONE (AND ONLY ONE):
-    "AmoledDarkTheme_quickConfig.css" for ADT
-    OR
-    "AmoledDarkThemeOptimized_quickConfig.css" for ADTO
-    Check the "xcores/themes" folder in the repo.
-    Original idea by YTGamer. Rewritten by Discord Addons.
-
-    MAP
-    1. Imports
-    2. Vars
-    3. Modifiers
-        3.1. Backgrounds
-        3.2. Other
-    4. Scrollbars
-    5. DevTags
-    6. BD Addon Card Infos
+/**
+ * @name AmoledDark
+ * @author Discord Addons, EinTim23
+ * @version 1.0.7
+ * @description AMOLED Dark theme after repo shutdown
+ * @website https://monarchupload.cc
+ * @source https://github.com/discord-addons/discord-addons/blob/master/download-themes-here/AmoledDarkThemeOptimized 
 */
-/*~~ 1. Imports ~~*/
-/* Currently nothing */
-
-/*~~ 2. Vars ~~*/
 :root {
-    /* Infos */
     --adt-build: "332";
     --adto-build: "233";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
 .theme-dark {
-    /* Default Variables Modifier */
     --background-primary: var(--bg-1) !important;
     --background-secondary: var(--bg-3) !important;
     --background-secondary-alt: var(--bg-2) !important;
@@ -47,9 +30,6 @@
     --deprecated-quickswitcher-input-background: var(--bg-4) !important;
 }
 
-/*~~ 3. Modifiers ~~*/
-/*-- 3.1. Backgrounds --*/
-/* Adt-Bg1 | Primary */
 .theme-dark .quickMessage-1yeL4E,
 .theme-dark .premiumContainer-2Iux5m,
 .theme-dark .container-xm7Ad0,
@@ -134,7 +114,6 @@
     background: var(--bg-1) !important;
     background-color: var(--bg-1) !important;
 }
-/* Adt-Bg2 | Tertiary and Secondary-Alt */
 .theme-dark .bodyInner-245q0L,
 .theme-dark .footer-1fjuF6,
 .theme-dark .headerNormal-T_seeN,
@@ -584,4 +563,180 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):hover {
     font-weight: bold !important;
     color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
+}
+/*
+ * USRBG User-Popout Implimentation
+ * 
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+*/
+
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+
+.userPopout-xaxa6l {
+	overflow: hidden;
+	transform: translateZ(0) !important;
+	--USRBG-banner-height: 60px;
+}
+
+.userPopout-xaxa6l[style*="-user-"] {
+	--USRBG-banner-height: 120px;
+	--USRBG-avatar-offset: 76px;
+}
+
+.userPopout-xaxa6l[style*="-user-"] .popoutBanner-19WKGg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: var(--user-popout-position, center) center;
+	background-image: var(--user-background);
+	height: var(--USRBG-banner-height, 120px);
+}
+
+.userPopout-xaxa6l[style*="-user-"] .avatarWrapperNormal-26WQIb {
+  	top: var(--USRBG-avatar-offset, 76px);
+}
+
+.userPopout-xaxa6l:not([style*="-user-"]) .avatar-37jOim,
+.userPopout-xaxa6l:not([style*="-user-"]) .avatarHint-2A3RNb {
+	z-index: 1;
+}
+
+.userPopout-xaxa6l:not([style*="-user-"]) .avatar-37jOim::after {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	height: var(--USRBG-banner-height, 60px);
+	pointer-events: none;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: var(--user-popout-position, center) center;
+	background-image: var(--user-background);
+}
+
+
+:root {
+    --theme-name: "The theme name is Unknown, please report. - Something"; /* Default value if the theme name is not set. */
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
+    content: var(--theme-name)" is broken/outdated! Please redownload the theme from \"discord-addons.github.io/themes\"." !important;
+    display: block; /* Default value if the theme does not have this display property. */
+    background-color: #3e82e5;
+    color: #fff;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 500;
+    height: auto;
+    line-height: 16px;
+    opacity: 1;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    text-align: center;
+    visibility: unset;
+    white-space: pre-wrap;
+    top: 0;
+    left: 0;
+    bottom: unset;
+    right: unset;
+    max-width: unset;
+    min-width: unset;
+    max-height: unset;
+    min-height: unset;
+    transform: unset;
+    animation: unset;
+    z-index: 101;
+    pointer-events: none;
+}
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+    border-top-left-radius: 6px;
+}
+
+.info-1VyQPT:after {
+    content: var(--adto-info) !important;
+    font-size: 12px !important;
+    color: var(--text-muted) !important;
+    display: inline !important;
+    opacity: 1 !important;
+    padding: 0 !important;
+    cursor: text !important;
+    visibility: visible !important;
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    bottom: 1px !important;
+    right: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    text-transform: none !important;
+}
+.theme-dark {
+    --background-dark-primary: black;
+    --background-dark-secondary: black;
+    --background-dark-tertiary: black;
+    --background-dark-4th: black;
+
+    --greyaccentcolor: 51, 51, 51;
+    --bg-1: var(--background-dark-primary); /* Black */
+    --bg-2: var(--background-dark-tertiary); /* Darker */
+    --bg-3: var(--background-dark-secondary) ; /* Dark */
+    --bg-4: var(--background-dark-4th); /* Dark-Grey */
+    --xl-bg: var(--xenolib-background-color, #000);
+    
+    --theme-name: "AMOLED Dark Theme Optimized";
+}
+:root {
+    --betterdiscord-v3-blue-rgb: var(--accentcolor, 62, 130, 229) !important;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
+    display: var(--version006_adto, block) !important;
+}
+[id*="AmoledDarkThemeOptimized-"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--adto-build) " ";
+}
+
+:root {
+    --xenolib-background-color: #000000 ;/* Default: #000000 - Background color for the XenoLib notifications if you have the plugin. You can use HEX, RGB or anything you want as long as it's a color (no image or filter). */
+    --version006_adto: none; 
+}
+.textArea-2CLwUE{
+    background-color: black;
+}
+.scrollableContainer-15eg7h{
+    background-color:black;
+}
+.peopleList-2VBrVI{
+    background-color:black;
+}
+.peopleColumn-1wMU14{
+    background-color:black;
+}
+.scroller-18M1mG{
+    background-color: black;
+}
+
+.resultsGroup-1BPR25{
+background: black;
+}
+.searchFilter-2UfsDk{
+background: black;
+}
+.searchAnswer-23w-CH{
+background: black;
+}
+.option-2KkUJO::after{
+background: black;
+}
+.option-2KkUJO::before{
+background: black;
+}
+.plusIcon-2V7coV{
+background: black;
+}
+ul{
+background: black;
 }

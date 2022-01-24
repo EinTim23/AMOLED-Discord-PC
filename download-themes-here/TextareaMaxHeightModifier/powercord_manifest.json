@@ -1,8 +1,0 @@
-{
-    "name": "TextareaMaxHeightModifier",
-    "description": "Allows you to modifiy the max height for the textarea. Modify the MaxHeight in the theme file.",
-    "version": "1.0.5",
-    "author": "Discord Addons",
-    "theme": "TextareaMaxHeightModifier.theme.css",
-    "license": "unknown"
-}

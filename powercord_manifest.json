@@ -1,0 +1,8 @@
+{
+    "name": "AMOLED-Dark",
+    "description": "AMOLED Dark theme after repo shutdown",
+    "version": "1.0.7",
+    "author": "Discord Addons, EinTim23",
+    "theme": "AMOLED-Dark.theme.css",
+    "license": "unknown"
+}
